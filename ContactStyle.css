@@ -1,0 +1,76 @@
+.contact-container{
+    cursor: default;
+    font-family: "Poppins", sans-serif;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    padding: 2em;
+    background-color: yellowgreen;
+    border-radius: 50rem 0rem 50rem  0rem;
+
+}
+.contact-item{
+    /* border-top: 2px solid purple; */
+    text-align: center;
+   
+}
+.college-details{
+    background-color: skyblue;
+    border-radius: 0 2rem 0 2rem;
+}
+.contacticon{
+    transition: all 300ms ease-in;
+}
+
+.contact-item:hover .contacticon {
+    transform: scale(1.6); 
+}
+
+/*media queries ----------------------------------------*/
+/* Add this CSS to your existing ContactStyle.css file */
+
+@media screen and (max-width: 1000px) {
+    .address {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .contact-container {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .address {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-item {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .address {
+        margin: 1em;
+        padding: 1em;
+    }
+    .contact-item {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .contact-item {
+        width: 100%;
+    }
+}
+
+.form-section{
+    background-color : rgb(167, 162, 162); 
+    border-radius: 50rem 0rem 50rem 0rem;
+}
