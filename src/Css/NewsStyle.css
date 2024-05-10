@@ -1,0 +1,154 @@
+
+.news-event-container {
+    cursor: default;
+    font-family: "Poppins", sans-serif;
+}
+
+.news-container {
+    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 2rem;
+    text-align: center;
+
+}
+
+.card {
+    width: 25%;
+    border: 2px solid red;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 10px 10px 5px 1px silver;
+    border-radius: 2rem;
+}
+
+.card-images {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.card p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1em 0;
+    max-width: 100%;
+    /* Added to prevent overflow */
+    word-wrap: break-word;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn {
+    border: 2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(white, white), radial-gradient(circle at bottom right, purple, green);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: all 20ms ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+
+}
+
+.explore-more {
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    color: #301934;
+
+}
+
+/*media queries */
+@media screen and (max-width:990px) {
+    .news-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 40%;
+        border: 2px solid red;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .news-containers {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70%;
+        margin: 2em;
+    }
+}
+
+/*event container-----------------------------------*/
+.textfield {
+    background-color: rgb(14, 72, 95);
+    border-radius: 2rem;
+    width: 60%;
+    margin: 1em;
+}
+.textfield p{
+    max-width: 100%;
+    /* Added to prevent overflow */
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1em 1em;
+}
+.textfield h1{
+    color: white;
+  
+}
+.event-container,
+.event-container1,
+.event-container2, 
+.event-container3 {
+    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 2rem;
+    text-align: center;
+    background-color: silver;
+}
+
+.event1img {
+     inline-size: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 2rem; 
+
+}
+.textfield1img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 50%; 
+    padding: 1em; 
+ 
+}
