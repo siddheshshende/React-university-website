@@ -1,4 +1,4 @@
-# Sage University College Website project
+# Sage University website
 
 This repository contains the source code for the Sage University college website, a single-page application built using React, Material-UI, CSS, and other technologies.
 
